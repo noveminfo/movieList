@@ -32,7 +32,10 @@ class List extends React.Component {
       <div className='row'>
         {data.map(movie =>
           <div key={movie.id} className='col-sm-3'>
-            <Card movie={movie} />
+            <Card
+              movie={movie}
+              onClick={() => this.handleClick()} 
+            />
           </div>
         )}
       </div>

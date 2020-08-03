@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Popup from 'react-popup';
+import './Popup.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import List from './containers/List';
@@ -11,6 +13,8 @@ const App = () => {
         <h1 className='navbar-brand text-light'>movieList</h1>
       </nav>
       <List />
+
+      <Popup />
     </div>
   );
 };
