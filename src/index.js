@@ -5,17 +5,17 @@ import './Popup.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import List from './containers/List';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   return (
-    <div className='container-fluid'>
-      <nav className='navbar sticky-top navbar-light bg-dark'>
-        <h1 className='navbar-brand text-light'>movieList</h1>
-      </nav>
-      <List />
-
-      <Popup />
-    </div>
+    <>
+      <Navbar />
+      <div className='container-fluid'>
+        <List />
+        <Popup />
+      </div>
+    </>
   );
 };
 
