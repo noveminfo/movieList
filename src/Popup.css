@@ -87,7 +87,6 @@
 
   .mm-popup__box {
       width: 400px;
-      height: 80%;
       position: fixed;
       top: 10%;
       left: 50%;
@@ -95,20 +94,20 @@
       background: #fff;
       box-shadow: 0px 5px 20px 0px rgba(126,137,140,0.20);
       border-radius: 5px;
-      border: 1px solid #B8C8CC;
+      border: 1px solid black;
       overflow: auto;
       z-index: 1001;
   }
 
       .mm-popup__box__header {
           padding: 15px 20px;
-          background: #EDF5F7;
-          color: #454B4D;
+          background: lightseagreen;
+          color: white;
       }
 
           .mm-popup__box__header__title {
               margin: 0;
-              font-size: 16px;
+              font-size: large;
               text-align: left;
               font-weight: 600;
           }

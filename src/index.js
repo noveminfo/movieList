@@ -4,7 +4,7 @@ import Popup from 'react-popup';
 import './Popup.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import List from './containers/List';
+import List_new from './containers/List';
 import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Navbar />
       <div className='container-fluid'>
-        <List />
+        <List_new />
         <Popup />
       </div>
     </>

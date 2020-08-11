@@ -11,7 +11,6 @@ const Card = ({ movie }) => {
         title: movie.title,
         content: (
           <div>
-            <img src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`} />
             <h3>Overview</h3>
             <p>{movie.overview}</p>
           </div>
@@ -28,7 +27,7 @@ const Card = ({ movie }) => {
 
   return (
     <div className='card' onClick={handleClick}>
-      <img src={`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}`} className='card-img-top' />
+      <img src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`} className='card-img-top' />
       <div className='card-body'>
         <h3 className='card-title'>{movie.title}</h3>
         <p>{`Vote: ${movie.vote_average}`}</p>
